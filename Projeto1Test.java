@@ -13,13 +13,19 @@ class Projeto1Test {
 		int[] a = {940, 880, 830, 790, 750, 660, 650, 590, 510, 940};
 		
 		Arrays.sort(a);
-		System.out.println("Minimum = " + a[0]);
-		System.out.println("Maximum = " + a[a.length-1]);
 		
-	    int sum = 0;
+		// Testa o menor
+		System.out.println("O menor valor é " +a[0]);
+		
+		// Testa o maior
+		System.out.println("O maior valor é " +a[a.length-1]);
+		
+		// Testa a soma
+	    int soma = 0;
 	    for( int num : a) {
-	          sum = sum+num;
+	          soma = soma+num;
 	      }
+	    System.out.println("A soma é " +soma);
 	        
 	}
 
